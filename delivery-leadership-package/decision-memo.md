@@ -4,26 +4,26 @@
 
 **Date:**
 **Author:** _your name_
-**Decision area:** _e.g., Day 2 scope tradeoff_
+**Decision area:** add a prop to a provided component is deprioritized
 
 ## Context
 
-_What was the situation that forced a choice? 2–3 sentences._
+I would like to accomplish the day to day activities and want to avoid any optional code changes. THis will keep me on track for completing capstone project successfully_
 
 ## Options considered
 
-1. **Option A: _name_.** _Pros / cons in plain English._
-2. **Option B: _name_.** _Pros / cons._
+1. **Option A: _name_.** Focus on MVP and complete the capstone project successfully_
+2. **Option B: _name_.** Exclude adding zip code from inject # 1 as this needs extensive testing and the scope is not clear whether the zip code should accept only USA zip codes or international zip codes also
 3. **Option C: _name_.** _Pros / cons._ (Optional.)
 
 ## Recommendation
 
-_Which option. One paragraph._
+I have selected option 1 to get myself on track for completing the capstone project.
 
 ## Why
 
-_The single most important reason, named in customer or business terms, not technical ones._
+Adding more scope makes the project compicates the scope  and more time is needed for testing 
 
 ## What would change my mind
 
-_If X happened by Y date, I would revisit this._
+If I get more time, I will consider adding all the optional features and code
