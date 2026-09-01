@@ -3,8 +3,8 @@
 // marked slot below; you do not author them.
 
 // INSERT: component imports (Day 2 - paste the import lines from the kit README here)
-import QuoteForm from "./components/QuoteForm";
-import RecentQuotes from "./components/RecentQuotes";
+import QuoteForm from "./Components/QuoteForm";
+import RecentQuotes from "./Components/RecentQuotes";
 import { sampleQuotes } from "./sampleQuotes";
 
 // The product title is configured through an environment variable, not code.
@@ -15,7 +15,7 @@ document.title = APP_TITLE;
 
 function App() {
   return (
-    <>
+  <>
       <header className="site-header">
         <div className="brand">Evergreen Insurance</div>
         <nav className="site-nav">
@@ -37,6 +37,7 @@ function App() {
           <QuoteForm />
           <RecentQuotes quotes={sampleQuotes} />
         </section>
+      </main>
 
       <footer className="site-footer">
         <p>&copy; 2026 Evergreen Insurance. Sample training project.</p>
