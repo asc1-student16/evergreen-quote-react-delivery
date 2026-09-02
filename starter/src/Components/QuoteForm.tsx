@@ -55,6 +55,9 @@ function QuoteForm() {
       <PremiumDisplay premium={premium} error={error} />
 
       {error && <p className="message">{error}</p>}
+       <button type="submit" className="primary-btn" disabled={!isValid}>
+        Save this quote
+      </button>
     </form>
   );
 }
