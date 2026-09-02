@@ -6,7 +6,6 @@
 import QuoteForm from "./Components/QuoteForm";
 import RecentQuotes from "./Components/RecentQuotes";
 import {QuotesProvider} from "./context/QuotesContext";
-import { sampleQuotes } from "./sampleQuotes";
 // The product title is configured through an environment variable, not code.
 // You set the real value in .env on Day 2. Watch the browser tab change.
 const APP_TITLE =
@@ -35,7 +34,7 @@ function App() {
             below with the assembled JSX from the kit README) */}
        <section className="quote-form-section">
           <QuoteForm />
-          <RecentQuotes quotes={sampleQuotes} />
+         <RecentQuotes />
         </section>
       </main>
 
