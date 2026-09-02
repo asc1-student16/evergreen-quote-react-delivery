@@ -5,8 +5,7 @@
 // INSERT: component imports (Day 2 - paste the import lines from the kit README here)
 import QuoteForm from "./Components/QuoteForm";
 import RecentQuotes from "./Components/RecentQuotes";
-import { sampleQuotes } from "./sampleQuotes";
-
+import {QuotesProvider} from "./context/QuotesContext";
 // The product title is configured through an environment variable, not code.
 // You set the real value in .env on Day 2. Watch the browser tab change.
 const APP_TITLE =
