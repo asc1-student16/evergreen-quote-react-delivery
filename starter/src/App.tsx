@@ -2,10 +2,10 @@
 // It runs today. Over the week you assemble the provided components into the
 // marked slot below; you do not author them.
 
-// INSERT: component imports (Day 2 - paste the import lines from the kit README here)
-import QuoteForm from "./Components/QuoteForm";
-import RecentQuotes from "./Components/RecentQuotes";
-import {QuotesProvider} from "./context/QuotesContext";
+import QuoteForm from "./components/QuoteForm";
+import RecentQuotes from "./components/RecentQuotes";
+import { QuotesProvider } from "./context/QuotesContext";
+
 // The product title is configured through an environment variable, not code.
 // You set the real value in .env on Day 2. Watch the browser tab change.
 const APP_TITLE =
@@ -14,7 +14,7 @@ document.title = APP_TITLE;
 
 function App() {
   return (
-  <QuotesProvider>
+    <QuotesProvider>
       <header className="site-header">
         <div className="brand">Evergreen Insurance</div>
         <nav className="site-nav">
@@ -30,11 +30,9 @@ function App() {
           <p>Get an estimated premium in under a minute, no account needed.</p>
         </section>
 
-        {/* INSERT: quote-form-section (Day 2 - replace the placeholder section
-            below with the assembled JSX from the kit README) */}
-       <section className="quote-form-section">
+        <section className="quote-form-section">
           <QuoteForm />
-         <RecentQuotes />
+           <RecentQuotes />
         </section>
       </main>
 
