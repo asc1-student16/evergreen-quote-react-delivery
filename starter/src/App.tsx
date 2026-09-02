@@ -2,8 +2,8 @@
 // It runs today. Over the week you assemble the provided components into the
 // marked slot below; you do not author them.
 
-import QuoteForm from "./components/QuoteForm";
-import RecentQuotes from "./components/RecentQuotes";
+import QuoteForm from "./Components/QuoteForm";
+import RecentQuotes from "./Components/RecentQuotes";
 import { QuotesProvider } from "./context/QuotesContext";
 
 // The product title is configured through an environment variable, not code.
