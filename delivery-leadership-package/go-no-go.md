@@ -24,3 +24,4 @@
 ## My call
 
 _My branch is green and every thing looks good. I will not merge to main as the main's type-check is red. Once it turns Green, I will merge without any approval.
+By Thursday 10:00 AM if the type-check is green then GO becomes unconditional.
