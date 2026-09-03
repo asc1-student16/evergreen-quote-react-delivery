@@ -7,9 +7,9 @@
 
 ## CI evidence
 
-- Latest run on `delivery/lead`: _green / red_  ·  link: _paste URL_
+- Latest run on `delivery/lead`: green  link: https://github.com/asc1-student16/evergreen-quote-react-delivery/tree/delivery/lead/starter/.github/workflows
 - Workflow file: `.github/workflows/ci.yml`
-- What the workflow actually checked: _name the steps_
+- What the workflow actually checked: checkout the code, Setup Node 22, install dependencies from the lock file (npm ci), type-check (tsc --noEmit), production build (npm run build).
 
 ## What "GO" would mean
 
@@ -18,10 +18,10 @@
 
 ## What "NO-GO" would mean
 
-- Hold the merge until: _condition_.
-- Owner of that condition: _name_.
-- Re-evaluate at: _time_.
-
+- Hold the merge until: the type-check on main is green
+- Owner of that condition: Engineering Team
+- Re-evaluate at: Thursday 10:00 AM
 ## My call
 
-_2–3 sentences. State the call. Name the *one* thing that drove it. Name what would flip it._
+_My branch is green and every thing looks good. I will not merge to main as the main's type-check is red. Once it turns Green, I will merge without any approval.
+By Thursday 10:00 AM if the type-check is green then GO becomes unconditional.
