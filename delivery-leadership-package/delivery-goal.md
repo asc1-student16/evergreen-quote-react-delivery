@@ -4,7 +4,7 @@
 
 ## Goal
 
-> _One sentence here._
+Assemble a modern, single-page React application that provides a live updating insurance premium estimate to prospective customers, validating the team's ability to ship a feature using a production-grade toolchain and successful CI workflow.
 
 ## "Done" looks like
 
